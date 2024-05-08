@@ -1,3 +1,5 @@
+package backjun
+
 import java.util.Scanner
 
 fun main(){
@@ -32,26 +34,3 @@ fun main(){
 // numberCompare에 numberB 6를 10 곱해 60으로 만들고 numberC의 8를 더해 68를 만들었다.
 // 이를 반복하여 사이클을 만든다
 
-
-
-//var input = Scanner(System.`in`)
-//var number = input.nextInt()
-//
-//var inputNumber = -1;
-//var index = 0;
-//
-//if(number < 10){
-//    number *= 10
-//}
-//println(number)
-//while (number != inputNumber){
-//    index++
-//    var number2 = if (inputNumber == -1 && number.toString().length != 1) number.toString()
-//    else if(number.toString().length == 1) (number*10).toString()
-//    else if(inputNumber.toString().length == 1) "0"+inputNumber.toString()
-//    else inputNumber.toString()
-//
-//    var number3 = (number2[0].toString().toInt() + number2[1].toString().toInt()).toString()
-//    var inputNumberString: String = (number2[1].toString() + if (number3.length == 1) number3.toInt().toString() else number3[1].toString().toInt().toString())
-//    inputNumber = inputNumberString.toInt()
-//}

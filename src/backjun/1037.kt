@@ -1,3 +1,5 @@
+package backjun
+
 import java.util.Scanner
 
 fun main(){

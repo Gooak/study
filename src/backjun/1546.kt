@@ -1,4 +1,4 @@
-
+package backjun
 fun main() {
     var index = readLine()!!.toInt()
 
